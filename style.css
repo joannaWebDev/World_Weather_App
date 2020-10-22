@@ -94,8 +94,6 @@ body {
   cursor: pointer;
 }
 
-.temperature-value p:hover {
-}
 
 .temperature-value span {
   color: #293251;
