@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather App - JavaScript</title>
+    <link rel="stylesheet" href="font/Rimouski.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- search -->
+    <div class="search">
+      <input id="searchInput" type="text" /> <button id="searchButton" onclick="handleOnSearch()">Buscar</button>
+    </div>
+   
+    <ul id="results"></ul>
+    <!-- results + add button -->
+    <div class="list">
+      <div id="container" class="container">
+        <div class="app-title"><p>Weather</p></div>
+        <div class="notification"></div>
+        <div class="weather-container">
+          <div class="weather-icon"><img id="icon" src="icons/unknown.png" alt="" /></div>
+          <div class="temperature-value">
+            <p id="temperature-value">- °<span>C</span></p>
+          </div>
+          <div class="temperature-description"><p id="temperature-description">-</p></div>
+          <div class="location"><p id="location">-</p></div>
+        </div>
+      </div>
+    </div>
+    <div id="map"></div>
+    <script src="app.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+  </body>
+</html>
