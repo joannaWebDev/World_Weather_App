@@ -11,8 +11,8 @@ const createMarker = (longitude, latitude) => new mapboxgl.Marker().setLngLat([l
 
 const createMap = (latitude, longitude) => {
   const mapDiv = document.getElementById("map");
-  mapDiv.style.width = "700px";
-  mapDiv.style.height = "700px";
+  mapDiv.style.width = "300px";
+  mapDiv.style.height = "300px";
 
   mapboxgl.accessToken = mapboxglAccessToken;
 
