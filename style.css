@@ -1,9 +1,13 @@
 * {
   font-family: "Rimouski";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: #293251;
+  margin: 2% auto;
 }
 
 .container {
@@ -98,8 +102,7 @@ body {
   font-size: 0.5em;
 }
 
-.temperature-description {
-}
+
 
 .temperature-description p {
   padding: 8px;
@@ -109,8 +112,6 @@ body {
   font-size: 1.2em;
 }
 
-.location {
-}
 
 .location p {
   margin: 0;
@@ -118,4 +119,16 @@ body {
   color: #293251;
   text-align: center;
   font-size: 0.8em;
+}
+.flex-container {
+  display: flex;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+.search {
+  margin: 2% 0;
+}
+.list {
+  margin:  20% 0;
 }
