@@ -23,7 +23,8 @@ body {
 
 .list {
   display: flex;
-  margin: 5px;
+  margin: 5%;
+  padding-right: 1%;
 }
 
 .list-item {
@@ -126,7 +127,4 @@ body {
 
 .search {
   margin: 2% 0;
-}
-.list {
-  margin:  20% 0;
 }
