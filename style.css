@@ -8,23 +8,22 @@
 body {
   background-color: #293251;
   margin: 2% auto;
+  overflow-x: hidden;
+  max-width: 1290px;
 }
 
 .container {
   width: 300px;
   background-color: #fff;
-
   display: block;
-  margin: 0 auto;
-
+  margin: 5%;
   border-radius: 10px;
   padding-bottom: 50px;
 }
 
 .list {
   display: flex;
-  margin: 5%;
-  padding-right: 1%;
+  flex-wrap: wrap;
 }
 
 .list-item {
